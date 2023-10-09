@@ -1,0 +1,50 @@
+body{
+    background-color:rgb(233, 224,210);
+    margin: 250px;
+    padding:200px;
+    justify-content: center;
+    display: flex;
+
+}
+.img{
+    border-radius:25%;
+    margin:10%;
+    display:inline-block;
+    padding:5%;
+
+    
+
+}
+
+.conteiner{
+    border: radius 5%;;
+    display:inline-block;
+    padding: 15%;
+    background:rgb(208,176,132);
+    border-radius:5%;
+    margin-right:40%;
+    width: 150px;
+    }
+
+.btn{
+    background-color:rgb(208,176,132);
+    color:black;
+    box-shadow: 0.1 1px 20px ;
+    width: 100%;
+    border-radius: 5px;
+    
+
+   
+}
+.img:hover{
+   --p:50%;
+   --r:0deg;
+   animation-play-state: paused;
+    
+
+}
+@keyframes a{
+    to{
+        --a:405deg
+    }
+}
